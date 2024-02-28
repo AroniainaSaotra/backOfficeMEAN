@@ -9,7 +9,7 @@ export class ListeServicesService {
   constructor(private http:HttpClient) { }
 
   listeServices(){
-    const URL_LISTE_SERVICES = "https://test-git-main-aroniainasaotras-projects.vercel.app/listeServices";
+    const URL_LISTE_SERVICES = "https://test-git-main-aroniainasaotras-projects.vercel.app/services/listeServices";
     return this.http.get(URL_LISTE_SERVICES);
   }
 }
